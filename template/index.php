@@ -9,6 +9,7 @@
 <body>
 
     <!-- header start -->
+    <?php include('views/partials/header.php'); ?>
     <!-- header end -->
     
     <!-- nav start -->
@@ -18,6 +19,7 @@
     <!-- main end -->
 
     <!-- footer start -->
+    <?php include('views/partials/footer.php'); ?>
     <!-- footer end -->
 </body>
 </html>
