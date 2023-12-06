@@ -13,6 +13,7 @@
     <!-- header end -->
     
     <!-- nav start -->
+    <?php include('views/partials/nav.php'); ?>
     <!-- nav end -->
 
     <!-- main start -->
