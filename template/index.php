@@ -1,10 +1,14 @@
+<?php include('config/settings.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SaCode</title>
+    <title><?=$siteTitle?></title>
     <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="icon" type="image/x-icon" href="<?=$siteFavicon?>">
+
 </head>
 <body>
 
