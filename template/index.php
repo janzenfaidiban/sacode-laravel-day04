@@ -17,6 +17,13 @@
     <!-- nav end -->
 
     <!-- main start -->
+    <?php 
+
+        if(isset($_GET['page']) && $_GET['page'] == 'home'){
+            include('views/pages/home.php');
+        }
+
+    ?>
     <!-- main end -->
 
     <!-- footer start -->
