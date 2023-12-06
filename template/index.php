@@ -19,14 +19,27 @@
     <!-- main start -->
     <?php 
 
+        // home 
         if(isset($_GET['page']) && $_GET['page'] == 'home'){
             include('views/pages/home.php');
         } 
 
+        // profile
         elseif(isset($_GET['page']) && $_GET['page'] == 'profile'){
             include('views/pages/profile.php');
         } 
-        
+
+        // gallery
+        elseif(isset($_GET['page']) && $_GET['page'] == 'gallery'){
+            include('views/pages/gallery.php');
+        } 
+
+        // contact
+        elseif(isset($_GET['page']) && $_GET['page'] == 'contact'){
+            include('views/pages/contact.php');
+        } 
+
+        // page not found        
         else {
             echo '
             <section class="p-5">
