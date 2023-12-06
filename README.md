@@ -19,3 +19,7 @@ git commit -m "your messages"
 ```
 git push
 ```
+
+```
+git pull
+```
