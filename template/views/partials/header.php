@@ -2,8 +2,12 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h1>SaCode</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, laudantium numquam laboriosam eum unde hic beatae, ducimus a accusantium vero deserunt, eligendi veritatis debitis rem!</p>
+                <h1 class="fw-bold display-1 text-primary"><?=$siteTitle?></h1>
+                <p class="text-secondary"><?=$siteDescription?></p>
+                <div>
+                    <?=$instagram?>
+                    <?=$facebook?>
+                </div>
             </div>
         </div>
     </div>
