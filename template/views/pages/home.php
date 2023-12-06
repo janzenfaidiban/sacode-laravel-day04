@@ -1,4 +1,4 @@
-<section class="bg-dark text-light p-5">
+<section class="p-5">
     <div class="container">
         <div class="row">
             <div class="col-lg-8">

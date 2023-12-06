@@ -21,7 +21,13 @@
 
         if(isset($_GET['page']) && $_GET['page'] == 'home'){
             include('views/pages/home.php');
-        } else {
+        } 
+
+        elseif(isset($_GET['page']) && $_GET['page'] == 'profile'){
+            include('views/pages/profile.php');
+        } 
+        
+        else {
             echo '
             <section class="p-5">
                 <div class="container">

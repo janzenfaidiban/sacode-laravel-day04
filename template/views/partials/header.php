@@ -1,4 +1,4 @@
-<header>
+<header class="bg-dark p-5 text-light">
     <div class="container">
         <div class="row">
             <div class="col-12">
